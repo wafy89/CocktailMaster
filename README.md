@@ -3,7 +3,7 @@ this project has been coded to search cocktails
 1- search by cocktail name
 2- search by first letter
 3- search by ingredients 
-4- git random cocktail 
+4- get random cocktail 
 
 ## OTHER OPTIONS:
 1- save cocktail to favorite list (as local storage)
