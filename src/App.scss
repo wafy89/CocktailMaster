@@ -42,24 +42,7 @@ body {
       }
     }
   }
-  /*   .root {
-    width: 90vw;
-    margin: auto;
-    margin-top: 10vh;
-    background-color: rgba(255, 255, 255, 0.95);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    padding-top: 50px;
-    border-radius: 50px;
-    .container {
-         max-width: 60vw;
-    }
-  }
 
- */
 }
 .searchFieldContainer {
   margin: 1vh auto;
@@ -120,6 +103,7 @@ body {
     border: none;
     height: 100%;
     outline: none;
+    font-weight: 700;
     &:hover {
       background-color: rgba(0, 0, 0, 0.2);
     }
@@ -141,8 +125,8 @@ body {
   align-items: center;
   .randomBTN {
     border-radius: 5vh;
-    width: 20%;
-    font-size: 100%;
+    width: 25%;
+    font-size: .8rem;
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(0, 0, 0, 0.7);
@@ -160,4 +144,22 @@ body {
 .ListContainer {
   width: 100%;
   min-height: 100vh;
+}
+
+.searchSection button a {
+  &:active ,
+  &:hover , 
+  &:visited,
+  &:link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+}
+
+.clearRandomBTN , .clearFavoriteBTN{
+  position: fixed;
+  top: 8vh;
+  left: auto;
+  right: auto;
 }

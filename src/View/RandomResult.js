@@ -37,6 +37,7 @@ function RandomResult(props) {
     <div className="ListContainer">
       {props.randomList ? (
         <Button
+          className="clearRandomBTN"
           variant="contained"
           color="secondary"
           onClick={props.clearRandoms}

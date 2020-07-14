@@ -38,6 +38,7 @@ function FavoriteList(props) {
     <div className="ListContainer">
       {props.favoriteList ? (
         <Button
+          className="clearFavoriteBTN"
           variant="contained"
           color="secondary"
           onClick={props.clearFavorites}
