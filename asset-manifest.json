@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CocktailMaster/static/css/main.cbad4566.chunk.css",
+    "main.js": "/CocktailMaster/static/js/main.2e028a9a.chunk.js",
+    "main.js.map": "/CocktailMaster/static/js/main.2e028a9a.chunk.js.map",
+    "runtime-main.js": "/CocktailMaster/static/js/runtime-main.623e545c.js",
+    "runtime-main.js.map": "/CocktailMaster/static/js/runtime-main.623e545c.js.map",
+    "static/js/2.e6dc5323.chunk.js": "/CocktailMaster/static/js/2.e6dc5323.chunk.js",
+    "static/js/2.e6dc5323.chunk.js.map": "/CocktailMaster/static/js/2.e6dc5323.chunk.js.map",
+    "index.html": "/CocktailMaster/index.html",
+    "precache-manifest.abe94471c5e9857ea8811a88cb91c60f.js": "/CocktailMaster/precache-manifest.abe94471c5e9857ea8811a88cb91c60f.js",
+    "service-worker.js": "/CocktailMaster/service-worker.js",
+    "static/css/main.cbad4566.chunk.css.map": "/CocktailMaster/static/css/main.cbad4566.chunk.css.map",
+    "static/js/2.e6dc5323.chunk.js.LICENSE.txt": "/CocktailMaster/static/js/2.e6dc5323.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/CocktailMaster/static/media/multicolor-glass-cocktail-drinks-black-background-hd-wallpapers.1b35ed3a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.623e545c.js",
+    "static/js/2.e6dc5323.chunk.js",
+    "static/css/main.cbad4566.chunk.css",
+    "static/js/main.2e028a9a.chunk.js"
+  ]
+}
