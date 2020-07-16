@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CocktailMaster/static/css/main.cbad4566.chunk.css",
-    "main.js": "/CocktailMaster/static/js/main.20e0249f.chunk.js",
-    "main.js.map": "/CocktailMaster/static/js/main.20e0249f.chunk.js.map",
+    "main.js": "/CocktailMaster/static/js/main.c06fee63.chunk.js",
+    "main.js.map": "/CocktailMaster/static/js/main.c06fee63.chunk.js.map",
     "runtime-main.js": "/CocktailMaster/static/js/runtime-main.07126e6c.js",
     "runtime-main.js.map": "/CocktailMaster/static/js/runtime-main.07126e6c.js.map",
     "static/js/2.ab7e7e79.chunk.js": "/CocktailMaster/static/js/2.ab7e7e79.chunk.js",
     "static/js/2.ab7e7e79.chunk.js.map": "/CocktailMaster/static/js/2.ab7e7e79.chunk.js.map",
     "index.html": "/CocktailMaster/index.html",
-    "precache-manifest.7673cd9fd35f7186701a89e9b740ca00.js": "/CocktailMaster/precache-manifest.7673cd9fd35f7186701a89e9b740ca00.js",
+    "precache-manifest.628ded1347289a727e7992992cab352b.js": "/CocktailMaster/precache-manifest.628ded1347289a727e7992992cab352b.js",
     "service-worker.js": "/CocktailMaster/service-worker.js",
     "static/css/main.cbad4566.chunk.css.map": "/CocktailMaster/static/css/main.cbad4566.chunk.css.map",
     "static/js/2.ab7e7e79.chunk.js.LICENSE.txt": "/CocktailMaster/static/js/2.ab7e7e79.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.07126e6c.js",
     "static/js/2.ab7e7e79.chunk.js",
     "static/css/main.cbad4566.chunk.css",
-    "static/js/main.20e0249f.chunk.js"
+    "static/js/main.c06fee63.chunk.js"
   ]
 }
