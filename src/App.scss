@@ -157,9 +157,27 @@ body {
   }
 }
 
-.clearRandomBTN , .clearFavoriteBTN{
+.backToHomeBTN ,.clearRandomBTN , .clearFavoriteBTN{
   position: fixed;
   top: 8vh;
   left: auto;
   right: auto;
+}
+
+
+
+
+
+
+
+
+.notFoundContainer{
+  width: " 90vw";
+  margin: "auto";
+  margin-top: "10vh";
+  background-color: " rgba(255, 255, 255, 0.95)";
+  min-height: " 100vh";
+  padding-top: "50px";
+  border-radius: "5px";
+  flex-direction: "row";
 }
