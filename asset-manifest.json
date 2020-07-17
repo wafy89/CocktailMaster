@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/CocktailMaster/static/css/main.cbad4566.chunk.css",
-    "main.js": "/CocktailMaster/static/js/main.c06fee63.chunk.js",
-    "main.js.map": "/CocktailMaster/static/js/main.c06fee63.chunk.js.map",
+    "main.css": "/CocktailMaster/static/css/main.3d56c014.chunk.css",
+    "main.js": "/CocktailMaster/static/js/main.365ceb15.chunk.js",
+    "main.js.map": "/CocktailMaster/static/js/main.365ceb15.chunk.js.map",
     "runtime-main.js": "/CocktailMaster/static/js/runtime-main.07126e6c.js",
     "runtime-main.js.map": "/CocktailMaster/static/js/runtime-main.07126e6c.js.map",
-    "static/js/2.ab7e7e79.chunk.js": "/CocktailMaster/static/js/2.ab7e7e79.chunk.js",
-    "static/js/2.ab7e7e79.chunk.js.map": "/CocktailMaster/static/js/2.ab7e7e79.chunk.js.map",
+    "static/js/2.90eb728d.chunk.js": "/CocktailMaster/static/js/2.90eb728d.chunk.js",
+    "static/js/2.90eb728d.chunk.js.map": "/CocktailMaster/static/js/2.90eb728d.chunk.js.map",
     "index.html": "/CocktailMaster/index.html",
-    "precache-manifest.628ded1347289a727e7992992cab352b.js": "/CocktailMaster/precache-manifest.628ded1347289a727e7992992cab352b.js",
+    "precache-manifest.b2c71d169663356dbe60ef6b8c70033d.js": "/CocktailMaster/precache-manifest.b2c71d169663356dbe60ef6b8c70033d.js",
     "service-worker.js": "/CocktailMaster/service-worker.js",
-    "static/css/main.cbad4566.chunk.css.map": "/CocktailMaster/static/css/main.cbad4566.chunk.css.map",
-    "static/js/2.ab7e7e79.chunk.js.LICENSE.txt": "/CocktailMaster/static/js/2.ab7e7e79.chunk.js.LICENSE.txt",
+    "static/css/main.3d56c014.chunk.css.map": "/CocktailMaster/static/css/main.3d56c014.chunk.css.map",
+    "static/js/2.90eb728d.chunk.js.LICENSE.txt": "/CocktailMaster/static/js/2.90eb728d.chunk.js.LICENSE.txt",
+    "static/media/404.mp4": "/CocktailMaster/static/media/404.9eab15a3.mp4",
     "static/media/App.scss": "/CocktailMaster/static/media/multicolor-glass-cocktail-drinks-black-background-hd-wallpapers.1b35ed3a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.07126e6c.js",
-    "static/js/2.ab7e7e79.chunk.js",
-    "static/css/main.cbad4566.chunk.css",
-    "static/js/main.c06fee63.chunk.js"
+    "static/js/2.90eb728d.chunk.js",
+    "static/css/main.3d56c014.chunk.css",
+    "static/js/main.365ceb15.chunk.js"
   ]
 }
