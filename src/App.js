@@ -1,21 +1,24 @@
 import React from "react";
 import SearchComponent from "./components/SearchComponent";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-/* components */
+// components 
 import "./App.scss";
-import {
-  getDataList,
-  isInFavorite,
-  getDataByID,
-  getRandomCocktail,
-  clearFavorites,
-  clearRandoms,
-} from "./utils/functions";
 import Home from "./View/Home";
 import SearchResult from "./View/SearchResult";
 import RandomResult from "./View/RandomResult";
 import FavoriteList from "./View/FavoriteList";
 import Page404 from "./View/Page404";
+
+
+// functions 
+import {
+  isInFavorite,
+  getDataList,
+  saveToFavorite,
+  getRandomCocktail,
+  clearFavorites,
+  clearRandoms,
+} from "./utils/functions";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -36,6 +39,14 @@ class App extends React.Component {
     this.clearRandoms = clearRandoms.bind(this);
   }
 
+//life cycle method
+  componentDidMount() {
+    let drinks = JSON.parse(localStorage.getItem("favoriteDrinks"));
+    this.setState({ favorites: drinks, drinks });
+  }
+
+
+  //methods 
   toggleByIngredients() {
     this.setState({ byIngredients: !this.state.byIngredients });
   }
@@ -59,11 +70,8 @@ class App extends React.Component {
       console.log(err);
     }
   }
-  componentDidMount() {
-    let drinks = JSON.parse(localStorage.getItem("favoriteDrinks"));
-    this.setState({ favorites: drinks, drinks });
-  }
 
+// add drink to favorite list 
   saveToFavorite(drink) {
     let drinks = this.state.favorites;
     let finalDrinks = [];
@@ -74,13 +82,14 @@ class App extends React.Component {
         finalDrinks = [...drinks, drink];
       }
 
-      //
     } else {
       finalDrinks = [drink];
     }
     this.setState({ favorites: finalDrinks });
     localStorage.setItem("favoriteDrinks", JSON.stringify(finalDrinks));
   }
+
+  
   render() {
     return (
       <div className="App">

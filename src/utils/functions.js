@@ -1,3 +1,5 @@
+
+// fetch data from API 
 export async function getDataList(searchBy, searchText) {
   try {
     let data;
@@ -18,6 +20,10 @@ export async function getDataList(searchBy, searchText) {
     console.log("err", err);
   }
 }
+
+
+
+//fetch random cocktail
 export async function getRandomCocktail() {
   try {
     let data;
@@ -32,6 +38,10 @@ export async function getRandomCocktail() {
     console.log("err", err);
   }
 }
+
+
+//fetch one cocktail
+
 export async function getDataByID(id) {
   try {
     const response = await fetch(
@@ -45,6 +55,8 @@ export async function getDataByID(id) {
   }
 }
 
+
+//clear random and favorite 
 export function clearFavorites() {
   localStorage.removeItem("favoriteDrinks");
   this.setState({ favorites: [] });
@@ -53,6 +65,8 @@ export function clearRandoms() {
   this.setState({ randoms: [] });
 }
 
+
+//cleaning up ingredient list and  attach the measure to each one
 export const ingredientsGenerator = (drink) => {
   let ingredientsArr = [
     { ingredient: drink.strIngredient1, measure: drink.strMeasure1 },
@@ -84,6 +98,8 @@ export const ingredientsGenerator = (drink) => {
   return finalIngredientsArr;
 };
 
+
+//checking if is in favorite list 
 export const isInFavorite = (array = [], id) => {
   if (!array) {
     return false;
@@ -91,3 +107,4 @@ export const isInFavorite = (array = [], id) => {
     return array.some((drink) => drink.idDrink === id);
   }
 };
+
