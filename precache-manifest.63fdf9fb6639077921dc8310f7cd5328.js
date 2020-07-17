@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efc023aba682cc3a9f0f6bf7cdab1460",
+    "revision": "4f7095b1c6d30cc06715189c45a10611",
     "url": "/CocktailMaster/index.html"
   },
   {
-    "revision": "4011139b626e367f2bac",
+    "revision": "520c008312ae60377065",
     "url": "/CocktailMaster/static/css/main.3d56c014.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CocktailMaster/static/js/2.90eb728d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4011139b626e367f2bac",
-    "url": "/CocktailMaster/static/js/main.365ceb15.chunk.js"
+    "revision": "520c008312ae60377065",
+    "url": "/CocktailMaster/static/js/main.d11bc4d3.chunk.js"
   },
   {
     "revision": "a0fdbf714ff3a80a302a",
