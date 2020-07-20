@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: " 90%",
     margin: "auto",
-    marginTop: "10vh",
+    marginTop: "11vh",
     backgroundColor: " rgba(255, 255, 255, 0.95)",
     minHeight: " 100vh",
     paddingTop: "50px",
